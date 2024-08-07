@@ -9,7 +9,7 @@ for i in numbers:
     for j in range(1, i+1):                                     # Перебор с первого до текущего элемента списка
         if i % j == 0:
             ind = ind + 1
-    if ind == 2 and is_prime == True:
+    if ind == 2 and is_prime == True:                           # Если флаг - Истина
         primes.append(i)
     else:
         not_primes.append(i)
